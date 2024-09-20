@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 49.5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(header-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 10px 8%; */
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+
+.nav-logo {
+    width: 40%;
+    height: 100px;
+    /* border: 2px solid black; */
+}
+
+.logo {
+    background-image: url(BrandAssets_Logos_01-Wordmark-removebg-preview.png);
+    height: 200px;
+    width: 400px;
+    margin-top: -60px;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 250px;
+    /* border: 1px solid white; */
+}
+
+.nav-select {
+    /* border: 1px solid black; */
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 480px;
+}
+
+.nav-select select {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.nav-signin {
+    background-color: red;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.nav-signin a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-text {
+    height: 300px;
+    width: 1060px;
+    /* border: 1px solid white; */
+    margin-left: 290px;
+    margin-top: 180px;
+}
+
+.nav-line1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.nav-line2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.nav-line3 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.nav-text input {
+    margin-left: 300px;
+    margin-top: 25px;
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.nav-text input::placeholder {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.nav-start {
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.nav-start a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* container1 */
+
+.container1 {
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+    display: flex;
+    /* justify-content: center;
+     */
+    align-items: center;
+}
+
+.txt-1 {
+    width: 50%;
+    height: 15rem;
+    /* border: 1px solid black; */
+}
+
+.txt-1 h2 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.txt-1 p {
+    color: white;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.txt-2 {
+    width: 50%;
+    height: 15rem;
+    /* border: 1px solid black; */
+    /* background-image: url(feature-1.png);
+    background-position: center;
+    background-size: cover; */
+}
+
+.txt-2 img {
+    width: 600px;
+    margin-left: 40px;
+    margin-top: -110px;
+}
+
+hr {
+    height: 5px;
+    background-color: gray;
+    border: none;
+}
+
+
+/* container2 */
+
+.container2 {
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+    display: flex;
+    /* justify-content: center;
+     */
+    align-items: center;
+}
+
+.txt-1 {
+    width: 50%;
+    height: 15rem;
+    /* border: 1px solid black; */
+    /* background-image: url(feature-1.png);
+    background-position: center;
+    background-size: cover; */
+}
+
+.txt-1 img {
+    width: 600px;
+    margin-left: 40px;
+    margin-top: -110px;
+}
+
+.txt-2 {
+    width: 50%;
+    height: 15rem;
+    /* border: 1px solid black; */
+}
+
+.txt-2 h2 {
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.txt-2 p {
+    color: white;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 2px;
+}
+
+
+/* container3 */
+
+.container3 {
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+    display: flex;
+    /* justify-content: center;
+     */
+    align-items: center;
+}
+
+.txt-1 {
+    width: 50%;
+    height: 15rem;
+    /* border: 1px solid black; */
+}
+
+.txt-1 h2 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.txt-1 p {
+    color: white;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 110px;
+}
+
+.txt-2 {
+    width: 50%;
+    height: 15rem;
+    /* border: 1px solid black; */
+    /* background-image: url(feature-1.png);
+    background-position: center;
+    background-size: cover; */
+}
+
+.txt-2 img {
+    width: 600px;
+    margin-left: 40px;
+    margin-top: -110px;
+}
+
+hr {
+    height: 5px;
+    background-color: gray;
+    border: none;
+}
+
+
+/* container4 */
+
+.container4 {
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+    display: flex;
+    /* justify-content: center;
+     */
+    align-items: center;
+}
+
+.txt-1 {
+    width: 50%;
+    height: 15rem;
+    /* border: 1px solid black; */
+    /* background-image: url(feature-1.png);
+    background-position: center;
+    background-size: cover; */
+}
+
+.txt-1 img {
+    width: 600px;
+    margin-left: 40px;
+    margin-top: -110px;
+}
+
+.txt-2 {
+    width: 50%;
+    height: 15rem;
+    /* border: 1px solid black; */
+}
+
+.txt-2 h2 {
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.txt-2 p {
+    color: white;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 2px;
+}
+
+
+/* container5 */
+
+.container5 {
+    width: 100%;
+    height: 50rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.container5 h2 {
+    color: white;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.buttons5 {
+    margin-top: 50px;
+    /* margin: 10px;
+    padding: 20px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.buttons5 button {
+    width: 900px;
+    height: auto;
+    text-align: left;
+    font-size: 15px;
+    padding: 15px;
+    /* margin-top: -40px; */
+    font-weight: bold;
+    margin: 5px;
+    background-color: gray;
+    color: white;
+}
+
+.buttons5 button span {
+    margin-left: 850px;
+}
+
+.container5a {
+    display: flex;
+}
+
+.container5a input {
+    margin-left: -30px;
+    margin-top: 25px;
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.container5a input::placeholder {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.con5-start {
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.con5-start a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* container6 */
+
+.container6 {
+    width: 100%;
+    height: 20rem;
+    background-color: black;
+    position: relative;
+}
+
+.container6 p {
+    color: white;
+    margin-top: 50px;
+    margin-left: 220px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.flex ul a {
+    display: block;
+    font-size: 0.85rem;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.lang {
+    margin-left: 230px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.container6 .pa {
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-left: 230px;
+}
